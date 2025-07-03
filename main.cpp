@@ -22,6 +22,11 @@ int main() {
     int c = 11037;
     int d = 7;
     int e = 116;
-    int f = a + b + c / d + e * a;
+    int f;
+    if (d != 0) {
+        f = a + b + c / d + e * a;
+    } else {
+        f = a + b + c / (d + 1) + e * a;
+    }
     std::cout << f << std::endl;
 }
