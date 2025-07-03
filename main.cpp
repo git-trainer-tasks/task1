@@ -20,7 +20,7 @@ int main() {
     int a = 907;
     int b = 279;
     int c = 11037;
-    int d = 0;
+    int d = 7;
     int e = 116;
     int f = a + b + c / d + e * a;
     std::cout << f << std::endl;
