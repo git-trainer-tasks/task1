@@ -1,3 +1,3 @@
 #include <iostream>
 
-int main() { std::cout << "Aboba v1.0" << std::endl; }
+int main() { std::cout << "Aboba v1.1" << std::endl; }
