@@ -1,6 +1,9 @@
 #include <iostream>
+#include <string>
 
 int main() {
+    std::string name = "Aboba";
+
     std::cout << "Aboba v1.3" << std::endl;
     int a = 907;
     int b = 279;
